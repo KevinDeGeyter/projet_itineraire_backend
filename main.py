@@ -2,6 +2,8 @@ from decouple import config
 from fastapi import FastAPI
 
 import aioredis
+
+# from redis import asyncio as aioredis
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.redis import RedisBackend
 
