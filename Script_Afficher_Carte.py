@@ -2,9 +2,9 @@ import folium
 from neo4j import GraphDatabase
 
 # Connexion à la base de données Neo4j
-uri = "bolt://127.0.0.1:7687"
+uri = "bolt://188.166.105.53:7687"
 username = "neo4j"
-password = "neo4j"
+password = "od1235Azerty%"
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
 # Fonction pour récupérer les coordonnées GPS et les labels des POIs de chaque cluster depuis Neo4j
