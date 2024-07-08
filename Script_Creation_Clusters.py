@@ -48,9 +48,9 @@ kmeans.fit(X)
 clusters = kmeans.labels_
 
 # Connexion à la base de données Neo4j
-uri = "bolt://127.0.0.1:7687"  
+uri = "bolt://188.166.105.53:7687"
 username = "neo4j"
-password = "neo4j"
+password = "od1235Azerty%"
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
 # Fonction pour créer le graphe dans Neo4j
